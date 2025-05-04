@@ -1,3 +1,9 @@
+// 1) Insert Simple message and key (Both should have same length)
+// 2) Perform XOR of message and key
+// 3) Result is the Cipher Text (Encrypted message)
+// 4) Perform XOR of Result and key
+// 5) Output will be the original message.
+
 import java.io.*;
 import java.lang.String;
 
