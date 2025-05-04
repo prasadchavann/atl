@@ -1,3 +1,16 @@
+// Algorithms
+//  Start
+//  Initialize the array for transmitted stream with the special bit
+// pattern 01111110 which indicates the beginning of frame
+//  Get the bit stream to be transmitted into the array
+//  Check for five consecutive ones if they occur, stuff a bit 0.
+//  Display the data transmitted as it appears on the data line after
+// appending 01111110
+//  For de-stuffing, copy the transited data to another array after
+// detecting the stuffed bits.
+//  Display the received bit stream
+//  Stop
+
 #include <stdio.h>
 #include <string.h>
 
